@@ -26,10 +26,10 @@
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only">
         <v-btn
-        flat
-        v-for="item in menuItems" :key="item.title"
-        router
-        :to="item.link">
+          flat
+          v-for="item in menuItems" :key="item.title"
+          router
+          :to="item.link">
           <v-icon left dark>{{ item.icon }}</v-icon>
           {{ item.title }}
         </v-btn>
